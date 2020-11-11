@@ -21,8 +21,22 @@ class Int_ptr
 		Int_ptr();
 		explicit Int_ptr(int i);
 
-		//
+		// Copy constructor
+		Int_ptr(const Int_ptr& t_ptr);
 
+		// Destructor
+		~Int_ptr();
+
+		// Overloaded operators
+		Int_ptr& operator=(const Int_ptr& t_ptr);
+		explicit operator bool() const;
+		int& operator*() const;
+
+		// Accessors
+		int* get() const;
+
+		// Mutators
+		void reset(int* t_ptr = nullptr);
 };
 
 #endif
