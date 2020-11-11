@@ -12,7 +12,7 @@
 #include "int_ptr.h"
 
 // Class "Int_ptr" definitions
-Int_ptr::Int_ptr() : ptr(new int) {}
+Int_ptr::Int_ptr() : ptr(new int(NULL)) {}
 Int_ptr::Int_ptr(int i) : ptr(new int(i)) {}
 Int_ptr::Int_ptr(const Int_ptr& t_ptr) : ptr(new int(*(t_ptr.ptr))) {}
 
