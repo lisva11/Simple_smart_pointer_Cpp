@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Simple_Smart_Pointer_Cpp/Simple_Smart_Pointer_Cpp.vcxproj.filters
+/Simple_Smart_Pointer_Cpp/Simple_Smart_Pointer_Cpp.vcxproj
+/Simple_Smart_Pointer_Cpp/Simple_Smart_Pointer_Cpp.sln
